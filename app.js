@@ -1,4 +1,4 @@
-const API_URL = "https://dboh5eautwoeuuzly7lnxhjapu0flryr.lambda-url.ap-south-1.on.aws/";
+const API_URL = "https://bnfktvsyfkic5f5eegvcnsmqda0pzpnw.lambda-url.ap-south-1.on.aws";
 const $ = s => document.querySelector(s);
 const state = { stars: 0, tags: {} }; // tags: name -> "up" | "down"
 let cfg, rid;
