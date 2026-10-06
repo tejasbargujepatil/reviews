@@ -1,9 +1,8 @@
 {
-  "demo": {
-    "name": "Demo Restaurant",
-    "placeId": "PASTE_GOOGLE_PLACE_ID",
-    "cuisine": "Indian",
-    "tags": ["Food", "Service", "Ambience", "Value for money", "Cleanliness", "Wait time", "Taste", "Portion size"],
-    "feedbackUrl": "mailto:owner@example.com?subject=Feedback"
+  "samudra": {
+    "name": "Hotel Samudra",
+    "placeId": "ChIJPREyEO6_wjsRxZaeVZAo0g0",
+    "cuisine": "Pure vegetarian",
+    "tags": ["Food", "Taste", "Service", "Ambience", "Value for money", "Cleanliness", "Wait time", "Portion size"],
   }
 }
