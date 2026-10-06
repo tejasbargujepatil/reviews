@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Share your experience</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<main class="card">
+  <h1 id="name">…</h1>
+  <p class="sub">How was your visit?</p>
+  <div id="stars" class="stars" role="radiogroup" aria-label="Star rating"></div>
+
+  <p class="label">Tap what stood out <span>(tap once = liked, twice = not great)</span></p>
+  <div id="tags" class="tags"></div>
+
+  <input id="dish" maxlength="80" placeholder="Dish you had (optional)">
+  <textarea id="note" maxlength="200" rows="2" placeholder="Anything you'd like to add, in your own words (optional)"></textarea>
+
+  <button id="gen" class="primary">Write my review draft</button>
+  <p id="err" class="err" hidden></p>
+
+  <section id="result" hidden>
+    <p class="label">Your draft. Edit it freely so it sounds like you.</p>
+    <textarea id="draft" rows="6"></textarea>
+    <div class="row">
+      <button id="regen" class="secondary">Try another version</button>
+      <button id="post" class="primary">Copy &amp; post on Google</button>
+    </div>
+    <p class="hint">Your text is copied. Paste it into the Google review box and submit from your own account.</p>
+  </section>
+
+  <a id="private" class="private" hidden target="_blank" rel="noopener">Prefer to send private feedback to the restaurant?</a>
+</main>
+<script src="app.js"></script>
+</body>
+</html>
