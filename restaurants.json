@@ -4,5 +4,6 @@
     "placeId": "ChIJPREyEO6_wjsRxZaeVZAo0g0",
     "cuisine": "Pure vegetarian",
     "tags": ["Food", "Taste", "Service", "Ambience", "Value for money", "Cleanliness", "Wait time", "Portion size"],
+    "feedbackUrl": "mailto:owner@example.com?subject=Feedback"
   }
 }
